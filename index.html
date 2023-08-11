@@ -1,3 +1,235 @@
+<style> 
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+body{
+
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url(./music.png) no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+.wrapper{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 0 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 95;
+
+}
+
+.logo{
+
+font-size: 2em;
+color:greenyellow;
+user-select: none;
+}
+
+
+.nav{
+
+max-width: 1100px;
+width: 100%;
+margin: 0 auto;
+}
+
+.nav, 
+.nav_items{
+
+display: flex;
+height: 100%;
+align-self: center;
+justify-content: space-between;
+
+}
+.nav_items,
+.nav_link{
+color: black;
+}
+
+
+.nav_link:hover{
+
+color:greenyellow;
+}
+
+.nav_logo,
+.nav_link,
+.button{
+color: black;
+font-size: 15px;
+font-weight: 200;
+}
+
+.button:hover{
+
+color: beige;
+}
+
+.nav_logo{
+color:greenyellow;
+font-size: 25px;
+font-weight: 600;
+}
+
+.nav_logo:hover{
+
+color: black;
+}
+
+.nav_items{
+column-gap: 25px;
+
+}
+
+
+.form-box{
+position: absolute;
+display: flex;
+align-items: center;
+width: 512px;
+height: 420px;
+overflow: hidden;
+z-index:2;
+}
+
+
+.register-container{
+
+width: 500px;
+display: flex;
+flex-direction: column;
+transition:.5s ease-in-out ;
+}
+
+.top span{
+color: white;
+font-size: small;
+padding:10px 0;
+display: flex;
+justify-content: center;
+}
+
+.top span a{
+font-weight: 500;
+color: white;
+margin-left: 5px;
+}
+
+
+header{
+color: white;
+font-size: 30px;
+text-align: center;
+padding: 10px 0 30px  0;
+}
+
+.two-forms{
+display: flex;
+gap: 10px;
+}
+
+.input-field{
+font-size: 15px;
+background: rgba(255, 255, 255, 0.3);
+color: white;
+width:100% ;
+height: 50px;
+padding: 0 10px 0 45px;
+border: none;
+border-radius: 30px;
+outline: none;
+transition: .2s ease;
+}
+
+.input-field:hover,.input-field:focus{
+background: rgba(255, 255, 255, 0.25);
+}
+
+::-webkit-input-placeholder{
+color: white;
+}
+
+
+.input-box i{
+position: relative;
+top: -35px;
+left: 17px;
+color: white;
+
+}
+
+.submit{
+font-size: 15px;
+font-weight: 500;
+color: black;
+height: 45px;
+width: 100%;
+border-radius: 30px;
+outline: none;
+background: rgba(255, 255, 255, 0.7);
+cursor: pointer;
+transition: .3s ease-in-out;
+}
+
+.submit:hover{
+background: rgba(255, 255, 255, 0.3);
+box-shadow: 1px 5px 7px 1px rgba(255, 255, 255, 0.3);
+
+}
+
+
+.two-col{
+display: flex;
+justify-content: space-between;
+color: white;
+font-size: small;
+margin-top: 10px
+}
+
+.two-col .one{
+display: flex;
+gap: 5px;
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
